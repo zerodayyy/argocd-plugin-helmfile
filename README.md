@@ -10,7 +10,7 @@ Patch your Argo CD Helm values with following:
 repoServer:
   extraContainers:
     - name: plugin-helmfile
-      image: zerodayyy/argocd-plugin-helmfile:v1.0.0
+      image: ghcr.io/zerodayyy/argocd-plugin-helmfile:v1.0.0
       command: ["/var/run/argocd/argocd-cmp-server"]
       securityContext:
         runAsNonRoot: true
