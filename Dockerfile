@@ -1,4 +1,4 @@
-FROM ghcr.io/helmfile/helmfile:v0.169.1
+FROM ghcr.io/helmfile/helmfile:v0.169.2
 
 ENV XDG_CONFIG_HOME /helm/.config
 ENV XDG_CACHE_HOME /helm/.cache
